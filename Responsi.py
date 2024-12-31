@@ -31,7 +31,7 @@ def admin_menu(parent):
     def tambah_produk():
         nama_produk = entry_nama.get()
         harga = entry_harga.get()
-        id_produk =random.randint(10000, 99999)
+        id_produk = generate_random_id()
         
         if nama_produk and harga:
             try:
