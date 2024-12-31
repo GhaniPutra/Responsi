@@ -45,7 +45,7 @@ Aplikasi ini adalah sistem manajemen ritel berbasis GUI yang dibuat dengan Pytho
      ```sql
      CREATE TABLE produk (
          id_produk INT PRIMARY KEY,
-         nama_produk VARCHAR(255) UNIQUE NOT NULL,
+         nama_produk VARCHAR(255) NOT NULL,
          harga INT NOT NULL
      );
      ```
