@@ -39,7 +39,7 @@ Aplikasi ini adalah sistem manajemen ritel berbasis GUI yang dibuat dengan Pytho
 1. **Tabel `produk`**:
    - **Kolom**:
      - `id_produk` (INT, Primary Key)
-     - `nama_produk` (VARCHAR, Unique)
+     - `nama_produk` (VARCHAR)
      - `harga` (INT)
    - Contoh Query:
      ```sql
